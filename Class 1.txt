@@ -1,0 +1,19 @@
+//class 1
+
+public class SimpleAndCompoundInterest {
+
+
+        static float principle;
+        static float annual_interest_rate;
+        static int number_of_years;
+        public float getPrinciple(){
+            return principle;
+        }
+        public float getAnnual_interest_rate(){
+            return annual_interest_rate;
+        }
+        public int getNumberOfYears(){
+            return number_of_years;
+        }
+
+    }

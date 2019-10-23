@@ -1,0 +1,21 @@
+//class3
+
+public class ProcessBasicInfo {
+
+
+
+//Method used to calculate Simple Interest
+        public static float simpleInterest(float principle,float annual_interest_rate,int number_of_years){
+            float simpleInterest;
+            simpleInterest=(principle*annual_interest_rate*number_of_years);
+            return simpleInterest;
+        }
+    //Method used to calculate Compound Interest
+        public static float compoundInterest(float principle,float annual_interest_rate,int number_of_years){
+            float compoundInterest;
+            compoundInterest= (float) (principle * (Math.pow((1+annual_interest_rate/100),number_of_years)));
+            return compoundInterest;
+        }
+    }
+
+
